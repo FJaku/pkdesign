@@ -1,0 +1,103 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  top: 0;
+  background-color: black;
+  cursor: default;
+  color: white;
+}
+
+#root {
+  top: 0;
+  position: absolute;
+}
+
+#logo {
+  position: absolute;
+  width: 10vw;
+  left: 5vw;
+  top: 2.5vw;
+}
+
+#introContainer {
+  margin-left: 25vw;
+  margin-top: 15vw;
+  width: 50vw;
+}
+
+.introText {
+  opacity: 0.75;
+  font-size: 10vw;
+  margin: 0;
+  line-height: 100%;
+  transition: 0.5s;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.introText:hover {
+  opacity: 1;
+  transition: 0.5s;
+  padding-left: 1vw;
+  color: white;
+  letter-spacing: 0.25vw;
+}
+
+#introDesign:hover {
+  text-shadow: 0.35vw 0.35vw 0.75vw #09f7ff;
+}
+
+#introGraphics:hover {
+  text-shadow: 0.35vw 0.35vw 0.75vw #f709ff;
+}
+
+#introArt:hover {
+  text-shadow: 0.35vw 0.35vw 0.75vw #f7ff00;
+}
+
+#navBar {
+  position: absolute;
+  margin-left: 25vw;
+  top: 2.5vw;
+  color: white;
+  width: 100%;
+  font-size: 1vw;
+}
+
+li {
+  cursor: pointer;
+}
+
+#navBar ul {
+  padding: 0;
+  margin: 0;
+}
+
+#navBar ul > li {
+  text-align: left;
+  display: inline-block;
+  width: 10vw;
+  padding: 1vw;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+
+#navBar ul > li:hover {
+  transition: 0.5s;
+  text-shadow: 0.15vw 0.15vw 0.15vw #f709ff;
+  letter-spacing: 0.05vw;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+.show {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
