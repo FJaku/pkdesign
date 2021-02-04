@@ -26,7 +26,7 @@ const NavBar = () => {
                     <li
                         onClick={() => {
                             clear()
-                            show('aboutUs')}
+                            show('aboutUsContainer')}
                         }
                     >
                         About Us
@@ -34,7 +34,7 @@ const NavBar = () => {
                     <li
                         onClick={() => {
                             clear()
-                            show('services')}
+                            show('servicesContainer')}
                         }
                     >
                         Services
@@ -42,7 +42,7 @@ const NavBar = () => {
                     <li
                         onClick={() => {
                             clear()
-                            show('services')}
+                            show('projectsContainer')}
                         }                    
                     >
                         Projects
