@@ -1,6 +1,4 @@
-import React, { useState, useEffect } from 'react'
-import store from '../redux/store'
-import { useSelector, useDispatch } from 'react-redux'
+import React from 'react'
 import PK from '../img/headshot.svg'
 import skills from '../img/skills.svg'
 import languages from '../img/languages.svg'

@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from 'react'
-import store from '../redux/store'
-import { useSelector, useDispatch } from 'react-redux'
+import React from 'react'
 
 const NavBar = () => {
 
-    //Hide selection
+    //Hide previous selection
     const clear = () => {
         var x = document.getElementsByClassName('shown')
         console.log(x)
@@ -12,7 +10,7 @@ const NavBar = () => {
         x[0].classList.remove('shown')
     }
 
-    //Show selection
+    //Go to selection
     const show = (y) => {
         var x = document.getElementById(y)
         x.classList.remove('hidden')

@@ -1,47 +1,48 @@
-import React, { useState, useEffect } from 'react'
-import store from '../redux/store'
-import { useSelector, useDispatch } from 'react-redux'
+import React from 'react'
 
 const Intro = () => {
 
-    setTimeout(() => {
-        var x = document.getElementById('introDesign')
-        var y = document.getElementById('introGraphics')
-        var z = document.getElementById('introArt')
-        setTimeout(() => {
-            x.classList.add('highlightDesign')            
-        }, 200);
-        setTimeout(() => {
-            x.classList.remove('highlightDesign') 
-            y.classList.add('highlightGraphics')            
-        }, 700);
-        setTimeout(() => {
-            y.classList.remove('highlightGraphics')  
-            z.classList.add('highlightArt')            
-        }, 1200);
-        setTimeout(() => {
-            z.classList.remove('highlightArt')             
-        }, 1700);
-    }, 500);
+    //Hide previous selection
+    const clear = () => {
+        var x = document.getElementsByClassName('shown')
+        x[0].classList.add('hidden')
+        x[0].classList.remove('shown')
+    }
+
+    //Go to selection
+    const show = (y) => {
+        var x = document.getElementById(y)
+        x.classList.remove('hidden')
+        x.classList.add('shown')
+    }   
+
+    const goTo = (y) => {
+        clear()
+        show('projectsContainer')
+        document.getElementById(`${y}Container`).scrollIntoView({ behavior: 'smooth' })
+    }
+
     
     return (
         <div id="introContainer" className='shown'>
             <p
                 className="introText"
                 id="introDesign"
-                
+                onClick={() => goTo('design')}
             >
                 DESIGN
             </p>
             <p
                 className="introText"
                 id="introGraphics"
+                onClick={() => goTo('graphics')}
             >
                 GRAPHICS
             </p>
             <p
                 className="introText"
                 id="introArt"
+                onClick={() => goTo('art')}
             >
                 ART . . .
             </p>

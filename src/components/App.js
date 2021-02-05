@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react'
-import store from '../redux/store'
-import { useSelector, useDispatch } from 'react-redux'
+import React from 'react'
 import Intro from './intro'
 import NavBar from './menu'
 import Services from './services'
 import AboutUs from './aboutUs'
+import Projects from './projects'
 import logo from '../img/logo.svg'
+
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Intro />
       <Services />
       <AboutUs />
+      <Projects />
     </>
   );
 }
