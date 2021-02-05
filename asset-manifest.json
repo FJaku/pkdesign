@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pkdesign/static/css/main.aa88999a.chunk.css",
+    "main.js": "/pkdesign/static/js/main.0f332156.chunk.js",
+    "main.js.map": "/pkdesign/static/js/main.0f332156.chunk.js.map",
+    "runtime-main.js": "/pkdesign/static/js/runtime-main.78c8da00.js",
+    "runtime-main.js.map": "/pkdesign/static/js/runtime-main.78c8da00.js.map",
+    "static/js/2.48830197.chunk.js": "/pkdesign/static/js/2.48830197.chunk.js",
+    "static/js/2.48830197.chunk.js.map": "/pkdesign/static/js/2.48830197.chunk.js.map",
+    "index.html": "/pkdesign/index.html",
+    "static/css/main.aa88999a.chunk.css.map": "/pkdesign/static/css/main.aa88999a.chunk.css.map",
+    "static/js/2.48830197.chunk.js.LICENSE.txt": "/pkdesign/static/js/2.48830197.chunk.js.LICENSE.txt",
+    "static/media/headshot.f8009f11.svg": "/pkdesign/static/media/headshot.f8009f11.svg",
+    "static/media/languages.6add7eb6.svg": "/pkdesign/static/media/languages.6add7eb6.svg",
+    "static/media/logo.d3d3358a.svg": "/pkdesign/static/media/logo.d3d3358a.svg",
+    "static/media/skills.ef488dd4.svg": "/pkdesign/static/media/skills.ef488dd4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78c8da00.js",
+    "static/js/2.48830197.chunk.js",
+    "static/css/main.aa88999a.chunk.css",
+    "static/js/main.0f332156.chunk.js"
+  ]
+}
