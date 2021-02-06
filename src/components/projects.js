@@ -19,12 +19,12 @@ const Projects = () => {
        
     //Show next sibling of <p> - the image of given design
     const showPortfolioImg = (e) => {
-        e.target.nextElementSibling.style.height = "75vw"
+        e.target.nextElementSibling.style.width = "75%"
     }
 
     //Hide image, scroll to previos sibling
     const hidePortfolioImg = (e) => {
-        e.target.style.height = "0"
+        e.target.style.width = "0"
         e.target.previousElementSibling.scrollIntoView({ behavior: 'smooth' })
     }
 

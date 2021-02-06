@@ -9,13 +9,14 @@ const Intro = () => {
         x[0].classList.remove('shown')
     }
 
-    //Go to selection
+    
     const show = (y) => {
         var x = document.getElementById(y)
         x.classList.remove('hidden')
         x.classList.add('shown')
     }   
-
+    
+    //Go to selection
     const goTo = (y) => {
         clear()
         show('projectsContainer')
