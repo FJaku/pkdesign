@@ -53,10 +53,9 @@ const NavBar = () => {
                     </li>  
                     <li
                         id="contactButton"
-                        onClick={() => {
+                        onClick={() => 
                             showContact()
-                            show('projectsContainer')}
-                        }                    
+                        }                  
                     >
                         Contact
                     </li>                 
