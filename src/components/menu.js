@@ -17,6 +17,12 @@ const NavBar = () => {
         x.classList.add('shown')
     }    
 
+    const showContact = () => {
+        var x = document.getElementById('contactContainer')
+        x.classList.remove('hidden')
+        x.classList.add('show')
+    }
+
     return (
         <>
             <div id ="navBar">
@@ -44,7 +50,16 @@ const NavBar = () => {
                         }                    
                     >
                         Projects
-                    </li>                   
+                    </li>  
+                    <li
+                        id="contactButton"
+                        onClick={() => {
+                            showContact()
+                            show('projectsContainer')}
+                        }                    
+                    >
+                        Contact
+                    </li>                 
                 </ul>
             </div>            
         </>

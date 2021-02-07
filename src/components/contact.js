@@ -5,12 +5,6 @@ import insta from '../img/icon-insta.svg'
 
 const Contact = () => {
 
-    const showContact = () => {
-        var x = document.getElementById('contactContainer')
-        x.classList.remove('hidden')
-        x.classList.add('show')
-    }
-
     const hideContact = () => {
         var x = document.getElementById('contactContainer')
         x.classList.remove('show')
@@ -18,11 +12,6 @@ const Contact = () => {
     }
     return (
         <>
-            <p 
-                id="contactButton"
-                onClick={() => showContact()}>
-                Contact
-            </p>
                 <div 
                     id="contactContainer"
                     className='hidden'>

@@ -19,7 +19,7 @@ const Projects = () => {
        
     //Show next sibling of <p> - the image of given design
     const showPortfolioImg = (e) => {
-        e.target.nextElementSibling.style.width = "75%"
+        e.target.nextElementSibling.style.width = "110%"
     }
 
     //Hide image, scroll to previos sibling
@@ -57,6 +57,11 @@ const Projects = () => {
             id="projectsContainer"
             className="hidden"
         >
+            <p className="pageName pageNameBlue">PROJECTS</p>
+             <FadeInSection>
+                <div className="colorCollumn blueCollumn"></div>
+                <p className="mainHeader">"Energy that brings ideas to life."</p>
+            </FadeInSection>
             <div
                 id="designContainer"
                 className="portfolioContainer"

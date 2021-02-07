@@ -1,5 +1,5 @@
 import React from 'react'
-import PK from '../img/headshot.svg'
+import PK from '../img/pk.png'
 import skills from '../img/skills.svg'
 import languages from '../img/languages.svg'
 import FadeInSection from './fade'
@@ -61,12 +61,12 @@ const AboutUs = () => {
                     <span>
                         2011 - 2015 &nbsp;&nbsp;&nbsp; Škola úžitkového výtvarníctva Košice
                     </span>
-                    <pre>                        Propagačné výtvarníctvo</pre> 
+                    <pre>                       Propagačné výtvarníctvo</pre> 
 
                     <span>
                         2015 - 2021 &nbsp;&nbsp; Technical University of Košice
                     </span>
-                        <pre>                        Design (Industrial design)</pre>
+                        <pre>                       Design (Industrial design)</pre>
                 </div>
             </FadeInSection>  
             

@@ -45,7 +45,7 @@ const Intro = () => {
                 id="introArt"
                 onClick={() => goTo('art')}
             >
-                ART . . .
+                ART...
             </p>
         </div>
     )
