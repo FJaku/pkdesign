@@ -21,7 +21,7 @@ const Contact = () => {
                         onClick={() => hideContact()}>
                     </i>
                     <p id="contactUs">Contact Us</p>
-                    <p id="email">patokolbasa@gmail.com</p>
+                    <p id="email">pk@pkdesign.com</p>
                     <p id="social">
                         SOCIAL<br></br>
 
